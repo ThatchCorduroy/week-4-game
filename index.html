@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Star Wars RPG</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+<body >
+    <div class="container">
+        <div class="row">
+            <h1>Star Wars RPG</h1>
+        </div>
+
+        <div id="game">
+
+            <div class="row" id="characters">
+                <div id="character1" class="col-md-2 character">
+                    <p>Character Name</p>
+                    <img src="assets/images/obi-wan.png">
+                    <p class="healthpoints"></p>
+                </div>
+                <div id="character2" class="col-md-2 character">
+                    <p>Character Name</p>
+                    <img src="assets/images/luke.png">
+                    <p class="healthpoints"></p>
+                </div>
+                <div id="character3" class="col-md-2 character">
+                    <p>Character Name</p>
+                    <img src="assets/images/sidious.png">
+                    <p class="healthpoints"></p>
+                </div>
+                <div id="character4" class="col-md-2 character">
+                    <p>Character Name</p>
+                    <img src="assets/images/maul.png">
+                    <p class="healthpoints"></p>
+                </div>
+            </div>
+            
+            <div class="row generalText">
+                Your Character
+            </div>
+
+            <div class="row">
+                <div id="chosen">
+                    <!-- The chosen to be dynamically inserted -->
+                </div>
+            </div>
+
+            <div class="row generalText">
+                Enemies Available To Attack
+            </div>
+
+            <div class="row">
+                <div id="enemies">
+                <!-- The non-chosen to be dynamically inserted -->
+                </div>
+            </div>
+             
+            <div class="row generalText">
+                Fight Section
+            </div>
+            <div class="row attack">
+                <button id="attack">Attack</button>
+            </div>
+            <div class="row generalText">
+                Defender
+            </div>
+            <div class="row">
+                <div id="enemy">
+                <!-- The enemy to be dynamically inserted -->
+                </div>
+            </div>
+            <div class="row statusText">
+                <div id="status">
+                    <!-- The status to be dynamically inserted -->
+                </div>
+            </div>
+            <div class="row reset">
+                <button id="reset">Reset</button>
+            </div>
+        
+        </div>
+
+    </div>
+</body>
+</html>

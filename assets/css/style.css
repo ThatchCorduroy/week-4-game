@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+h1 {
+    font-family: Andale Mono, monospace;
+    color: white;
+    text-align: right;
+}
+
+.generalText {
+    font-family: Andale Mono, monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.character {
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+
+}
+
+.enemies {
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    background-color: red;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.enemy {
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+}
+
+.statusText {
+    font-family: Andale Mono, monospace;
+    color: rgb(255, 0, 64);
+    font-size: 20px;
+}
