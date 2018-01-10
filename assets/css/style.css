@@ -19,7 +19,6 @@ h1 {
     font-family: Andale Mono, monospace;
     text-align: center;
     background-color: white;
-    padding: 30px;
     border-style: solid;
     border-color: green;
     border-width: 3px;
@@ -30,7 +29,6 @@ h1 {
     font-family: Andale Mono, monospace;
     text-align: center;
     background-color: red;
-    padding: 30px;
     border-style: solid;
     border-color: black;
     border-width: 3px;
@@ -41,7 +39,6 @@ h1 {
     text-align: center;
     color: white;
     background-color: black;
-    padding: 30px;
     border-style: solid;
     border-color: green;
     border-width: 3px;
