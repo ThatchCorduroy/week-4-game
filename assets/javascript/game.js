@@ -70,7 +70,7 @@ $(document).ready(function() {
             $(enemyid).data("attr").hp = enemyhp-chosenap;
             $(chosenid).data("attr").ap = chosenap+chosenbap;
             
-            if ($(enemyid).data("attr").hp <= 0) {
+            if ($(enemyid).data("attr").hp <= 0 && $(chosenid).data("attr").hp > 0) {
                 enemies.pop(enemyid);
 
                 if (enemies.length === 0) {
